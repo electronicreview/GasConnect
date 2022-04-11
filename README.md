@@ -1,6 +1,4 @@
 # GasConnect (v1.0)
 
-# DESCRIPTION
-Features
-Speed: Loading pages is faster since graphics and databases are managed and optimized efficiently for faster app experiences (Kuznetsov et al.). Fast loading helps reduce user frustration when searching the different prices in the location. 
-Simplicity: The user interface is made simple and clear to ensure users navigate it efficiently and faster, thus enhancing the customer experience. The different sections of the application are arranged in a manner that is easy to locate what a user wants to access on the application. 
+# DESCRIPTION <br>
+Finding the best deal for gas in different locations is a challenge, with different companies offering gas at different prices. Refilling a car in a new location becomes more challenging since one may not have experience of the location, thus making it a challenge worth looking into. The app idea was developed to solve the problem of getting cheap gas deals, finding reputable gas stations in new locations, and getting updates on gas availability in each gas station
