@@ -59,9 +59,9 @@ You can also do relative links [newfile.txt](newfile.txt)
 
 ## Visuals
 
-![Signup](/Screenshots/signup.jpg)
-![Login](/Screenshots/login.jpg)
-![Home](/Screenshots/home.jpg)
+![Signup](/Screenshots/signup.jpg =250x250)
+![Login](/Screenshots/login.jpg =250x250)
+![Home](/Screenshots/home.jpg =250x250)
 ![Edit](/Screenshots/editoption.jpg)
 ![update](/Screenshots/updateprice.jpg)
 ![refresh](/Screenshots/pulldownrefresh.jpg)
