@@ -9,12 +9,13 @@ Finding the best deal for gas in different locations is a challenge, with differ
 ## Table of Contents
 
 1. [Manifest](#manifest)
-2. [Style Examples](#style-examples)
-3. [Embedding Code](#embedding-code)
-4. [Embedding Links](embedding-links)
-5. [Embedding Images](#embedding-images)
-6. [Lists In Markdown](#lists-in-markdown)
-7. [Necessary Things for a README](#necessary-things-for-a-readme)
+2. [Visuals](#visuals)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Support](#support)
+6. [Road Map](#Road-map)
+7. [License](#license)
+8. [Project Status](#project-status)
 
 ## Manifest
 
@@ -25,37 +26,6 @@ Finding the best deal for gas in different locations is a challenge, with differ
 - src/screens/Login.js ----> This markdown file you are reading.
 - img ----------> Images folder for the readme
 ```
-
-## Style Examples
-
-_Italics!_
-
-**Bold!**
-
-_**Bold-Italics!**_
-
-~~strikethru~~
-
-:coffee::cat::happy:
-
-In the words of Abraham Lincoln:
-
-> "Pardon my French!"
-
-## Embedding Code
-
-```cpp
-int myFunc(int a int b){
-    int c = a+b;
-    return c;
-}
-```
-
-## Embedding Links
-
-You can host websites at [Github Pages](https://pages.github.com/)!
-
-You can also do relative links [newfile.txt](newfile.txt)
 
 ## Visuals
 
