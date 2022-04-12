@@ -59,9 +59,19 @@ You can also do relative links [newfile.txt](newfile.txt)
 
 ## Visuals
 
-- Visuals are very important! You might want to include screenshots of your code in operation. GIFS are also great!
-- Just use the "![ ]()" to input images.
+![Signup](/Screenshots/signup.jpg)
+![Login](/Screenshots/login.jpg)
+![Home](/Screenshots/home.jpg)
+![Edit](/Screenshots/editoption.jpg)
+![update](/Screenshots/updateprice.jpg)
+![refresh](/Screenshots/pulldownrefresh.jpg)
+![user](/Screenshots/user.jpg)
+![Darkmode](/Screenshots/darkmode.jpg)
 
+**Admin**
+![Admin](/Screenshots/admin.jpg)
+![AdminAdd](/Screenshots/adminaddstation.jpg)
+![AdminDelete](/Screenshots/admindelete.jpg)
 ## Installation 
 
 - Downloading for both iOS and Android devices are through our website
@@ -84,7 +94,7 @@ https://gas-connect.com/download
 
 - **NOTE:** Admin accounts is not for a normal user so all gas stations are added to the system by our team
 
-- Screenshots:
+- Screenshots: [Visuals](#visuals)
 
 
 ## Support
