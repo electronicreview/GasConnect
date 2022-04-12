@@ -21,8 +21,8 @@ Finding the best deal for gas in different locations is a challenge, with differ
 - A manifest is a list of the top-level files in a project with a description of what each file is.
 
 ```
-- newfile.txt --> A new file that says stuff in it
-- README.md ----> This markdown file you are reading.
+- src/assets/logo.png --> Our project logo
+- src/screens/Login.js ----> This markdown file you are reading.
 - img ----------> Images folder for the readme
 ```
 
@@ -77,11 +77,12 @@ https://gas-connect.com/download
 ## Usage
 
 - Once the user opens the app, they will be asked to login or signup if they haven't already.
-- NOTE: Admin accounts is not for a normal user so all gas stations are added to the system by our team
 - Once the user registers or logs in, they will be taken to the main page with all the gas stations available.
 - User will be able to see gas station name/fuel type, address, price, and the ability to edit the pricing.
 - User is allowed to edit the pricing if the current price on the app is not the same as at the gas station.
 - User can see the last date the price was updated.
+
+- **NOTE:** Admin accounts is not for a normal user so all gas stations are added to the system by our team
 
 - Screenshots:
 
