@@ -9,13 +9,14 @@ Finding the best deal for gas in different locations is a challenge, with differ
 ## Table of Contents
 
 1. [Manifest](#manifest)
-2. [Visuals](#visuals)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Support](#support)
-6. [Road Map](#Road-map)
-7. [License](#license)
-8. [Project Status](#project-status)
+2. [Development](#development)
+3. [Visuals](#visuals)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Support](#support)
+7. [Road Map](#Road-map)
+8. [License](#license)
+9. [Project Status](#project-status)
 
 ## Manifest
 
@@ -26,6 +27,14 @@ Finding the best deal for gas in different locations is a challenge, with differ
 - src/screens/Login.js ----> This markdown file you are reading.
 - img ----------> Images folder for the readme
 ```
+## Development
+
+- NodeJS
+- MongoDB
+- ReactNative
+- API: is hosted on Herokuapp for NodeJS environment: https://gas-connect-api.herokuapp.com/
+- Database is hosted on MongoDB with the free service.
+
 
 ## Visuals
 
