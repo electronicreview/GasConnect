@@ -57,12 +57,6 @@ You can host websites at [Github Pages](https://pages.github.com/)!
 
 You can also do relative links [newfile.txt](newfile.txt)
 
-## Embedding Images
-
-![python](src/assets/logo.png)
-
-![woah](img/woah.gif)
-
 
 
 ## Lists in Markdown
@@ -170,20 +164,19 @@ Contact: [email me](trevor.tomesh@gmail.com)
 
 ## Road-map
 
-- List your panned future developments
-- This is a good way to keep track of what it is that you want to do in the future!
+- Ability to find gas stations using users GPS location
+- Ability to find a certain type of fuel grade
+- Expanding of service within the whole Canada with the use of GPS location
 
 
 ## License
 
-- Depending on what kind of project you are doing, you might have a specific copyright. 
-- Usually on github, everything is open source!
-- You can find license info here: [license](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository)
+Open Software License 3.0	osl-3.0
 
 ## Project Status
 
-- A lot of the time people will abandon projects. You should always at least let people know if you aren't interested in working on a project anymore!
-- Someone might want to pick it up on your behalf!
+- Future updates to the project are active
+
 
 
 
