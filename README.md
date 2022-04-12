@@ -59,6 +59,7 @@ You can also do relative links [newfile.txt](newfile.txt)
 
 ## Visuals
 
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/signup.jpg"  width="200" height="400" />
 ![Signup](/Screenshots/signup.jpg =250x250)
 ![Login](/Screenshots/login.jpg =250x250)
 ![Home](/Screenshots/home.jpg =250x250)
