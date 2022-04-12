@@ -59,18 +59,13 @@ You can also do relative links [newfile.txt](newfile.txt)
 
 ## Visuals
 
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/signup.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/login.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/home.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/editoption.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/updateprice.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/pulldownrefresh.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/user.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/darkmode.jpg"  width="200" height="400" />
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/signup.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/login.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/home.jpg"  width="200" height="400" />
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/editoption.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/updateprice.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/pulldownrefresh.jpg"  width="200" height="400" />
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/user.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/darkmode.jpg"  width="200" height="400" />
 
 **Admin Area**
 
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admin.jpg"  width="200" height="400" /><img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/adminaddstation.jpg"  width="200" height="400" /><img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admindelete.jpg"  width="200" height="400" />
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admin.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/adminaddstation.jpg"  width="200" height="400" />   <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admindelete.jpg"  width="200" height="400" />
 
 ## Installation 
 
