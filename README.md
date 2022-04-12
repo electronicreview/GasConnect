@@ -69,9 +69,8 @@ You can also do relative links [newfile.txt](newfile.txt)
 <img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/darkmode.jpg"  width="200" height="400" />
 
 **Admin Area**
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admin.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/adminaddstation.jpg"  width="200" height="400" />
-<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admindelete.jpg"  width="200" height="400" />
+
+<img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admin.jpg"  width="200" height="400" /><img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/adminaddstation.jpg"  width="200" height="400" /><img src="https://github.com/electronicreview/GasConnect/blob/main/Screenshots/admindelete.jpg"  width="200" height="400" />
 
 ## Installation 
 
