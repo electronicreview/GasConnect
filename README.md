@@ -1,6 +1,6 @@
 # GasConnect (v1.0)
 
-![python](src/assets/logo.png)
+![Logo](src/assets/logo.png)
 
 ## DESCRIPTION <br>
 Finding the best deal for gas in different locations is a challenge, with different companies offering gas at different prices. Refilling a car in a new location becomes more challenging since one may not have experience of the location, thus making it a challenge worth looking into. The app idea was developed to solve the problem of getting cheap gas deals, finding reputable gas stations in new locations, and getting updates on gas availability in each gas station
@@ -57,69 +57,6 @@ You can host websites at [Github Pages](https://pages.github.com/)!
 
 You can also do relative links [newfile.txt](newfile.txt)
 
-
-
-## Lists in Markdown
-
-Here's a list of cool pokemon:
-
-- Mew
-- Mewtwo
-- Celebi
-- Arceus
-- Porygon
-- Mimikyu
-
-Here's a list of my favorite pens:
-
-1. Lamy 200
-2. Herbin
-3. Pilot
-
-Here's a nested list!
-
-1. This is a number
-   1. This is a sub-number
-   2. This is another sub-number
-2. This is a number
-   - This is a subpoint
-   - This is another sub-point
-     1. This is a sub-sub number
-
-## Necessary Things for a README
-
-Depending on exactly what sort of project you are doing, there are a number of things that you may or may not want to include in a readme. There is really no **one true way** to do it. Readme's are a kind of _artform_.
-
-*__However__* there are a few things that you should consider including:
-
-1. Name of your project.
-2. Description of your project.
-3. Badges.
-4. Graphics / Visuals
-5. Install Instructions
-6. Usage (how does one use the program once it is installed.)
-7. Support / Contact Details.
-8. Road-map (future ideas)
-9. How to contribute
-10. Authors / Acknowledgements (give credit where credit is due!)
-11. License
-12. Project Status
-
-## Name of your Project
-
-- This should be, simply, the name of your project.. maybe with some kind of a version Number
-
-## Description of your project
-
-- This is a brief, but accurate description telling potential users _exactly_ what your project is about. This is akin to an "abstract" in academic works. 
-
-## Badges
-
-![social](https://img.shields.io/github/followers/trevortomesh?style=social)![twitter](https://img.shields.io/twitter/follow/trevortomesh?style=social)![languages](https://img.shields.io/github/languages/count/trevortomesh/research-methods-class)
-
-- Badges are small images that convey meta data such as whether or not all the tests are passing, version numbers, languages used, etc. 
-- Get badges at shields.io
-
 ## Visuals
 
 - Visuals are very important! You might want to include screenshots of your code in operation. GIFS are also great!
@@ -127,46 +64,39 @@ Depending on exactly what sort of project you are doing, there are a number of t
 
 ## Installation 
 
-- Describe how your software / development is installed. Sometimes it's easy as something like:
+- Downloading for both iOS and Android devices are through our website
 
 ```bash
-sudo apt-get install my-cool-thing
+https://gas-connect.com/download
 ```
 
-- often it involves a bit of  downloading sources and building:
-
-```bash
-git clone my-cool-repo.git
-cd /my-cool-repo
-cd /build
-make
-```
-
-- You should list out steps as unambiguously as humanly possible!!
-- Often people don't read the actual install instructions, but they just copy and paste what is in the black boxes. __Keep this in mind!__
+- For iOS click on the iOS image and for Android click on the APK image to download to your device
+- Once it is downloaded, you will be prompted to install it so let's install the app
+- Android app may need some special permissions to click allow once prompted for "allow unknown sources".
 
 ## Usage
 
-- Describe how the program / project is going to be used once it is installed. 
-- If it is a command line app, you'll want to give CLI examples:
+- Once the user opens the app, they will be asked to login or signup if they haven't already.
+- NOTE: Admin accounts is not for a normal user so all gas stations are added to the system by our team
+- Once the user registers or logs in, they will be taken to the main page with all the gas stations available.
+- User will be able to see gas station name/fuel type, address, price, and the ability to edit the pricing.
+- User is allowed to edit the pricing if the current price on the app is not the same as at the gas station.
+- User can see the last date the price was updated.
 
-```bash
-cool-project -arg1 -arg2
-```
+- Screenshots:
 
-- then maybe show a screenshot of  the results :smile:
 
 ## Support
 
-- tell users how they can get a hold of you
+- To get support you can email us at support@gas-connect.com
 
-Contact: [email me](trevor.tomesh@gmail.com)
+Contact: [Email Us](support@gas-connect.com)
 
 ## Road-map
 
-- Ability to find gas stations using users GPS location
-- Ability to find a certain type of fuel grade
-- Expanding of service within the whole Canada with the use of GPS location
+- Ability to find gas stations using GPS location
+- Ability to filter type of fuel grade
+- Expanding service within the whole Canada with the use of GPS location
 
 
 ## License
