@@ -23,11 +23,12 @@ Finding the best deal for gas in different locations is a challenge, with differ
 - A manifest is a list of the top-level files in a project with a description of what each file is.
 
 ```
-- src/assets/logo.png --> Our project logo
-- src/screens/Login.js ----> Login page.
-- src/screens/Signup.js  ----> Signup page
-- src/store/ -------------------> Storing keys and sessions for logged in users.
-- api/ ---------------------------> API folder used on herokuapp.
+- src/assets/logo.png --------- Our project logo.
+- src/screens/ ---------------- Containts all visual screens displayed in the app (login, Signup, stations).
+- src/store/ ------------------ Storing keys and sessions for logged in users.
+- api/ ------------------------ API folder used on herokuapp.
+- Screenshots/ ---------------- Contains all visuals used in this README.
+- README.md ------------------- This README.MD contains all documentation about this app.
 ```
 ## Development
 
@@ -93,6 +94,8 @@ Contact: [Email Us](support@gas-connect.com)
 ## License
 
 Open Software License 3.0	osl-3.0
+
+This is a completely free to use software and anyone is allowed to build more to it as per their liking and publish it elsewhere.
 
 ## Project Status
 
