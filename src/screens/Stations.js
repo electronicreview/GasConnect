@@ -34,7 +34,8 @@ function Stations(props) {
 
         return () => { isMounted = false };
     }, [isFocused]);
-
+	
+	//Pull down to reload
     const reload = () => {
         stationService.getAll(``)
             .then(result => {
@@ -46,13 +47,13 @@ function Stations(props) {
                 setStations(result.data);
             });
     }
-
+	//Page refresh if any changes are made
     const onRefresh = () => {
         setRefreshing(true);
         reload();
         setRefreshing(false);
     }
-
+	// Fetches all stations from the database
     const renderStations = () => {
         if (stations.length === 0)
             return <Text>No data found.</Text>;
