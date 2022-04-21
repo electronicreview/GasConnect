@@ -19,6 +19,7 @@ function DrawerHome(props) {
     const navigation = useNavigation();
 
 	return (
+		//Side navigation bar which shows options such as profile, and stations.
 		<Drawer.Navigator
 			drawerContent={props => <DrawerContent {...props} />}
 			screenOptions={ ({navigation}) => ({
@@ -43,6 +44,7 @@ function DrawerHome(props) {
 					headerLeft: props => <BackButton />
 				}}
 			/>
+			//This section is only displayed to admins		
 			<Drawer.Screen 
 				name="Station" 
 				component={Station}
