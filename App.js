@@ -19,7 +19,7 @@ const App = (props) => {
 
 	const Stack = createNativeStackNavigator();
 	let [initialRoute, setInitialRoute] = useState(null);
-
+	//Using user session to see if user is logged in
 	useEffect(() => {
 		let isLoggedIn = session.get(keys.isLoggedIn) || null;
 		if (isLoggedIn) {
@@ -38,7 +38,8 @@ const App = (props) => {
 			<Suspense fallback={<Loading />}>
 				<SafeAreaView style={GlobalStyles.safeArea}>
 					<NavigationContainer>
-						{
+						{	
+							//Showing screens for login, signup, or home page
 							initialRoute && initialRoute === "Login" &&
 							<Stack.Navigator initialRouteName="Login">
 								<Stack.Screen name="Login" component={Login} options={{ header: () => null }}></Stack.Screen>
