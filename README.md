@@ -54,6 +54,8 @@ Finding the best deal for gas in different locations is a challenge, with differ
 https://gas-connect.com/download
 ```
 
+<a href="https://drive.google.com/file/d/1ovB51CIjwZtBs1hILyeXGNasLu0velJU/view?usp=sharing"><img src="src/assets/apkdownload.png"/></a>
+
 - For iOS click on the iOS image and for Android click on the APK image to download to your device
 - Once it is downloaded, you will be prompted to install it so let's install the app
 - Android app may need some special permissions to click allow once prompted for "allow unknown sources".
