@@ -31,7 +31,7 @@ function Login(props) {
         setSuccessMessage(null);
         setErrorMessage(null);
     }, []);
-
+    //Validating all fields are filled
     const onSubmit = () => {
 
         if(!email || !password) {
@@ -54,7 +54,7 @@ function Login(props) {
 
                 const data = result.data;
                 session.setStringified(keys.user, data);
-                session.set(keys.isLoggedIn, "true");
+                session.set(keys.isLoggedIn, "true"); //Creates a user session for logged in user
 
                 navigation.navigate("DrawerHome");
             });
@@ -62,7 +62,7 @@ function Login(props) {
 
     return (
         <ScrollView contentContainerStyle={globalStyles.container}>
-            <Image source={require("../assets/logo.png")} style={localStyles.logo} />
+            <Image source={require("../assets/logo.png")} style={localStyles.logo} /> //displays our logo
             <Title style={localStyles.screenHeading}>
                 Login
             </Title>
