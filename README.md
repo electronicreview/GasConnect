@@ -75,7 +75,9 @@ https://gas-connect.com/download
 
 ## Support
 
-- To get support you can email us at support@gas-connect.com
+- To get support you can email us at support@gas-connect.com 
+- Academic email: ebad.ejaz@uregina.ca
+- Personal Email: ebadnoorejaz@gmail.com
 
 Contact: [Email Us](support@gas-connect.com)
 
