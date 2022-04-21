@@ -24,8 +24,10 @@ Finding the best deal for gas in different locations is a challenge, with differ
 
 ```
 - src/assets/logo.png --> Our project logo
-- src/screens/Login.js ----> This markdown file you are reading.
-- img ----------> Images folder for the readme
+- src/screens/Login.js ----> Login page.
+- src/screens/Signup.js  ----> Signup page
+- src/store/ -------------------> Storing keys and sessions for logged in users.
+- api/ ---------------------------> API folder used on herokuapp.
 ```
 ## Development
 
