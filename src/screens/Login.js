@@ -31,7 +31,8 @@ function Login(props) {
         setSuccessMessage(null);
         setErrorMessage(null);
     }, []);
-    //Validating all fields are filled
+
+    // login submit method
     const onSubmit = () => {
 
         if(!email || !password) {
@@ -44,25 +45,29 @@ function Login(props) {
             return;
         }
 
+        // sending API call with input data
         userService.login(email, password)
             .then(result => {
                 if (result.error) {
+                    // show error, if any
                     setSuccessMessage(null);
                     setErrorMessage(result.error);
                     return;
                 }
 
+                // set session
                 const data = result.data;
                 session.setStringified(keys.user, data);
-                session.set(keys.isLoggedIn, "true"); //Creates a user session for logged in user
+                session.set(keys.isLoggedIn, "true");
 
+                // redirect user to Home screen
                 navigation.navigate("DrawerHome");
             });
     }
 
     return (
         <ScrollView contentContainerStyle={globalStyles.container}>
-            <Image source={require("../assets/logo.png")} style={localStyles.logo} /> //displays our logo
+            <Image source={require("../assets/logo.png")} style={localStyles.logo} />
             <Title style={localStyles.screenHeading}>
                 Login
             </Title>
