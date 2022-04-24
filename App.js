@@ -13,20 +13,23 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import keys from "./src/store/keys";
 import { Provider as PaperProvider } from 'react-native-paper';
 
+// ignore some unwanted development warning
 LogBox.ignoreLogs(["Reanimated 2", "EventEmitter.removeListener"]);
 
 const App = (props) => {
 
+	// create stack navigator
 	const Stack = createNativeStackNavigator();
 	let [initialRoute, setInitialRoute] = useState(null);
-	//Using user session to see if user is logged in
+
+	// check if the user is logged in,
 	useEffect(() => {
 		let isLoggedIn = session.get(keys.isLoggedIn) || null;
 		if (isLoggedIn) {
-			setInitialRoute("DrawerHome");
+			setInitialRoute("DrawerHome"); // if yes, set initial route to Drawer page
 		}
 		else {
-			setInitialRoute("Login");
+			setInitialRoute("Login"); // if no, set initial route to Login page
 		}
 	}, []);
 
@@ -36,10 +39,11 @@ const App = (props) => {
 				icon: props => <MaterialCommunityIcons {...props} />
 			}}>
 			<Suspense fallback={<Loading />}>
+				{/* SafeAreaView to avoid content going over device notches */}
 				<SafeAreaView style={GlobalStyles.safeArea}>
+					{/* NavigationContainer to contain routes */}
 					<NavigationContainer>
-						{	
-							//Showing screens for login, signup, or home page
+						{
 							initialRoute && initialRoute === "Login" &&
 							<Stack.Navigator initialRouteName="Login">
 								<Stack.Screen name="Login" component={Login} options={{ header: () => null }}></Stack.Screen>
