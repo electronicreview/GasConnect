@@ -31,6 +31,7 @@ function Profile(props) {
     useEffect(() => {
         let isMounted = true;
         if (isMounted) {
+            // set user properties from session
             let user = session.getParsed(keys.user) || false;
             if (user) {
                 setUser(user);
@@ -42,21 +43,24 @@ function Profile(props) {
         return () => { isMounted = false };
     }, [isFocused]);
 
+    // submit method for update
     const onSubmit = () => {
         if (!name || !address) {
             setErrorMessage(`Please provide all fields.`);
             return;
         }
 
-        console.log("update: ", user._id, name, address);
+        // send API call with input data
         userService.update(user._id, name, address)
             .then(result => {
                 if (result.error) {
+                    // show error message, if any
                     setSuccessMessage(null);
                     setErrorMessage(result.error);
                     return;
                 }
 
+                // set session
                 const data = result.data;
                 setErrorMessage(null);
                 setSuccessMessage(`Profile updated successfully!`);
