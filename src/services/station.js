@@ -3,6 +3,8 @@ import utils from "../utils/utils";
 import constants from '../utils/constants';
 import moment from "moment";
 
+// All API calls for stations
+
 export default class {
 
     static getAll = async keyword => {
