@@ -2,6 +2,7 @@ import React from 'react';
 import { Button as PaperButton, useTheme } from "react-native-paper";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
+// custom link button component
 function Link({ text, icon, ...rest }) {
     const { colors } = useTheme();
     return (

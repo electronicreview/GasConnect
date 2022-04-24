@@ -4,6 +4,7 @@ import constants from '../utils/constants';
 import { useTheme } from 'react-native-paper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
+// custom button component
 function Button({ text, icon, ...rest }) {
     const { colors } = useTheme();
     return (

@@ -20,8 +20,10 @@ import session from "../store/session";
 import keys from "../store/keys";
 import { alertError, alertConfirm } from "../utils/alerts";
 
+// component to render each row in Stations screen
 function StationRow(props) {
 
+    // station data will be received from component props
     let station = props.data.item;
     const isFocused = useIsFocused();
     const [menuVisiblility, setMenuVisibility] = useState(false);
@@ -40,8 +42,10 @@ function StationRow(props) {
         return () => { isMounted = false };
     }, [isFocused]);
 
+    // function to update price
     const handleUpdatePrice = () => {
         if (station && station._id && user && user._id) {
+            // sending API call to update price in database
             stationService.update(station._id, offerPrice, user._id)
                 .then(result => {
                     if (result.error) {
@@ -51,16 +55,19 @@ function StationRow(props) {
 
                     setMenuVisibility(false);
                     setShowMakeOffer(false);
-                    props.reload();
+                    props.reload(); // reload with updated price
                 });
         }
     }
 
+    // function to delete a station
     const handleDelete = () => {
         if (station && station._id && user && user._id) {
+            // confirming from user
             alertConfirm({
                 message: `You'll not be able to revert this.`,
                 onConfirm: () => {
+                    // send API call to delete station from DB
                     stationService.delete(station._id)
                         .then(result => {
                             if (result.error) {
@@ -69,7 +76,7 @@ function StationRow(props) {
                             }
 
                             setMenuVisibility(false);
-                            props.reload();
+                            props.reload(); // reload all stations
                         });
                 }
             });
@@ -79,6 +86,7 @@ function StationRow(props) {
     return (
         <>
             {
+                // update price popup box
                 showMakeOffer &&
                 <Portal>
                     <Modal visible={showMakeOffer} onDismiss={() => setShowMakeOffer(false)}

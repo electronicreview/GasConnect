@@ -7,6 +7,7 @@ import CurrencyInput from 'react-native-currency-input';
 import globalStyles from "../styles/style";
 import constants from '../utils/constants';
 
+// custom input text component
 function NumberInput({ placeholder, value, icon, onChangeText, ...rest }) {
     return (
         <PaperTextInput

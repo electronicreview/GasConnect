@@ -3,6 +3,7 @@ import { useTheme } from 'react-native-paper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/native';
 
+// custom back button component
 function BackButton({ globalState, setKey, text, icon, ...rest }) {
     const { colors } = useTheme();
     const navigation = useNavigation(); 

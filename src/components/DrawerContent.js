@@ -21,12 +21,14 @@ import constants from '../utils/constants';
 import keys from "../store/keys";
 import { useIsFocused } from "@react-navigation/native";
 
+// custom drawer component to render content in drawer
 function DrawerContent({ navigation, ...props }) {
 
 	const { colors } = useTheme();
     const isFocused = useIsFocused();
     const [user, setUser] = useState(null);
 
+    // setting user values in state
     useEffect(() => {
         let isMounted = true;
         if (isMounted) {
@@ -37,16 +39,22 @@ function DrawerContent({ navigation, ...props }) {
         return () => { isMounted = false };
     }, [isFocused]);
 
+    // logout button functions
     const onLogout = () => {
+        // alert for confirmation
         alertConfirm({
             message: "",
-            onConfirm: () => {                
+            onConfirm: () => {
+                // if user confirms,
+                // empty the values saved in session                
                 session.logout();
+                // navigate user to the Login screen
                 navigation.navigate("Login");
             }
         });
     }
 
+    // return null untill user data is loaded
     if(!user)
         return null;
     
@@ -123,6 +131,7 @@ function DrawerContent({ navigation, ...props }) {
 
 export default DrawerContent;
 
+// styles for this component
 const styles = StyleSheet.create({
     drawerContent: {
         flex: 1,

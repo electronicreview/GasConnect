@@ -6,11 +6,13 @@ import { TextInput as PaperTextInput } from "react-native-paper";
 import globalStyles from "../styles/style";
 import constants from '../utils/constants';
 
+// custom password input component
 function PasswordInput({ placeholder, value, onChangeText, ...rest }) {
 
     const [icon, setIcon] = useState("eye");
     const [isSecure, setIsSecure] = useState(true);
 
+    // toggling visibility of password
     const toggleSecureText = () => {
         setIsSecure(!isSecure);
         setIcon(icon === "eye" ? "eye-off" : "eye");

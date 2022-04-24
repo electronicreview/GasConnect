@@ -6,6 +6,7 @@ import { TextInput as PaperTextInput } from "react-native-paper";
 import globalStyles from "../styles/style";
 import constants from '../utils/constants';
 
+// custom text input component
 function TextInput({ placeholder, value, icon, onChangeText, ...rest }) {
     return (
         <PaperTextInput
