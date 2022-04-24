@@ -1,6 +1,8 @@
 const Joi = require("joi");
 Joi.objectId = require('joi-objectid')(Joi);
 
+// validation methods for each incoming request
+
 module.exports = {
     signup: data =>
         Joi.object({

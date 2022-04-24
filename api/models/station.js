@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// station model, containing all properties of a station
 const schema = new mongoose.Schema({
     title: {
         type: String,

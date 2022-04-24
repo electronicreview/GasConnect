@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
+// connecting database
 module.exports = () => {
+    // getting connection string from ENV file
     mongoose.connect(process.env.DB_CONNECTION_STRING, {
         useCreateIndex: true,
         useNewUrlParser: true,

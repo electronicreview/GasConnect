@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const {isEmail} = require('validator');
 
+// user model, containing all properties of a user
 const schema = new mongoose.Schema({
     name: {
         type: String,

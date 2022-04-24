@@ -1,4 +1,5 @@
 
+// method to take object and return error details
 module.exports = err => {
     if(!err || !err.details)
         return ``;
