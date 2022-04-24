@@ -1,6 +1,7 @@
 
 const app = "@gas_connect_";
 
+// variable names to avoid typo
 module.exports = {
     isLoading: `${app}isLoading`,
     isLoggedIn: `${app}isLoggedIn`,
