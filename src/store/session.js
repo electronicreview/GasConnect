@@ -5,6 +5,7 @@ import keys from './keys';
 const intiStorage = async () => await SyncStorage.init();
 intiStorage();
 
+// session storage
 const session = {
     set: (key, value) => SyncStorage.set(key, value),
     setStringified: (key, value) => SyncStorage.set(key, JSON.stringify(value)),
