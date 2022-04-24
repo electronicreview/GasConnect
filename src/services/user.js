@@ -2,6 +2,7 @@ import axios from 'axios';
 import utils from "../utils/utils";
 import constants from '../utils/constants';
 
+// All API calls for users
 export default class {
 
     static getById = async userId => {
